@@ -9,3 +9,12 @@ function add(a: number, b: number): number {
 }
 
 console.log(add(a, b));
+
+class Person {
+  name: string;
+  age: number;
+  constructor(name: string, age: number) {
+    this.name = name;
+    this.age = age;
+  }
+}
